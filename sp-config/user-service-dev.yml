@@ -14,3 +14,8 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka1:2002/eureka
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
